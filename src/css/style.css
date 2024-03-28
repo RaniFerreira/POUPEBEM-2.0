@@ -56,5 +56,71 @@ body{
     color: #144303; 
 }
 
+/* Estilos para a seção #home */
+#home {
+    text-align: center; 
+    padding: 50px 0; 
+}
+
+.simbolo-dinheiro {
+    font-size: 200px; 
+    color: green; 
+    font-weight: bold; 
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.titulo {
+    font-size: 65px; 
+    color: green; 
+    margin-bottom: 20px; 
+    font-family: 'Arial Black', sans-serif;
+    animation: blink 1s infinite;
+}
+
+
+.subtitulo {
+    font-size: 35px; 
+    color: #666; 
+    margin-bottom: 40px; 
+    font-family: 'Arial Black', sans-serif;
+}
+
+
+#home img {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto; 
+}
+
+
+
+.text-sobre {
+    text-align: justify;
+    border: 2px solid #ccc; 
+    border-radius: 15px ; 
+    padding: 20px; 
+    width: 80%; 
+    margin: auto;
+    
+   
+    
+}
+
+.text-sobre p {
+    font-size: 30px; 
+    line-height: 1.5; 
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+
+
+
+
 
 
