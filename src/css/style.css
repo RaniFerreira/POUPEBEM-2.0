@@ -1,5 +1,5 @@
 body{
-    background-color: #e6edea; 
+    background-color: #5b916c; 
 }
 
 .navbar {
@@ -117,6 +117,72 @@ body{
     color: black;
     font-family: 'Pacifico', cursive;
 }
+
+/*estilo para seção #encomendas*/
+
+.tituloMaior {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 10vh;
+    transform: translateY(-50%);
+}
+
+
+.curso-titulo {
+    margin-bottom: 5px;
+    font-size: 35px;
+    color: #f9f8f8; 
+}
+
+.curso-subtitulo {
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: #f9f8f8; 
+}
+
+.curso-preco {
+    font-weight: bold;
+    color: #007bff;
+    font-size: 25px;
+}
+
+.curso-preco span {
+    text-decoration: line-through;
+}
+
+.containerEncomenda {
+    max-width: 1200px;
+    margin: 0 auto; 
+    overflow: hidden;
+    text-align: center; 
+   
+    
+}
+
+.box {
+    background-color: #171714; /* Bege */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    margin-left: 25px;
+    padding: 15px;
+    float: left;
+    width: calc(33.33% - 40px); /* Largura ajustada */
+    box-sizing: border-box;
+}
+
+.box img {
+    width: 120px; 
+    height: 120px; 
+    border-radius: 20%;
+    margin-bottom: 10px;
+}
+
+
+
+
 
 
 
