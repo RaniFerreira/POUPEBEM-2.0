@@ -1,12 +1,13 @@
 body{
-    background-color: #5b916c; 
+    background-color: #3e3737; 
 }
 
+/*estilo para navbar*/
 .navbar {
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    background-color: #5b916c; 
+    background-color: #333333;
     padding: 10px 20px; 
     box-shadow: 0 2px 4px rgba(211, 214, 8, 0.1); 
     border-radius: 5px; 
@@ -41,7 +42,7 @@ body{
 
 .nav-links li a {
     text-decoration: none;
-    color: #333333;
+    color: white;
     font-weight: bold; 
     padding: 10px 15px;
     font-size: 18px;
@@ -52,7 +53,7 @@ body{
 }
 
 .nav-links li a:hover {
-    background-color: #e3e30d; 
+    background-color:green; 
     color: #144303; 
 }
 
@@ -84,7 +85,7 @@ body{
 
 .subtitulo {
     font-size: 35px; 
-    color: #666; 
+    color: #f0d908; 
     margin-bottom: 40px; 
     font-family: 'Arial Black', sans-serif;
 }
@@ -123,7 +124,7 @@ body{
 .tituloMaior {
     font-size: 48px;
     font-weight: bold;
-    color: #333;
+    color: white;
     text-align: center;
     margin-top: 10vh;
     transform: translateY(-50%);
@@ -162,14 +163,14 @@ body{
 }
 
 .box {
-    background-color: #171714; /* Bege */
+    background-color: #171714; 
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
     margin-left: 25px;
     padding: 15px;
     float: left;
-    width: calc(33.33% - 40px); /* Largura ajustada */
+    width: calc(33.33% - 40px);
     box-sizing: border-box;
 }
 
@@ -180,6 +181,76 @@ body{
     margin-bottom: 10px;
 }
 
+/*estilo do formulário de encomendas*/
+
+.caixaForm{
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid #ccc;
+    
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.field {
+    margin-bottom: 15px;
+    
+    
+}
+
+.label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.input {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    box-sizing: border-box;
+    margin-left: 150px;
+}
+
+select {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 150px;
+    
+}
+
+.botao {
+    text-align: center;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
 
 
 

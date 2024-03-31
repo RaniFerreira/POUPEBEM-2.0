@@ -1,3 +1,7 @@
+
+<?php
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -86,23 +90,53 @@
                 <div class="box">
                     <img src="src/img/pessoa-calculando.jpg" alt="">
                     <h2 class="curso-titulo">Curso 6</h2>
-                    <h5 class="curso-subtitulo">Planejamento financeiro na prática</h5>
+                    <h5 class="curso-subtitulo">Planejamento na prática</h5>
                     <div class="price curso-preco">R$350,00 <span>R$600,00</span></div>
                 </div>
 
                 <div class="">
-                    
                 </div>
-
-
-
             </div>
 
-           
-            
+            <div class="caixaForm">
 
+                <form method="POST" action="dadosEncomenda.php">
+
+                    <div class="field">
+                        <label for="nome" class="label">Nome Completo</label>
+                        <div class="control">
+                            <input type="text" name="nome" id="nome" class="input">
+                        </div>
+                    </div>
+        
+                    <div class="field">
+                        <label for="telefone" class="label">Telefone(WhatsApp)</label>
+                        <div class="control">
+                            <input name="telefone" id="telefone" class="input">
+                        </div>
+                    </div>
+                    
+                    <select name="curso" required>
+                        <option value="">Selecione um curso</option>
+                        
+                    <option value="Curso 1">Curso 1</option>
+                    <option value="Curso 2">Curso 2</option>
+                    <option value="Curso 3">Curso 3</option>
+                    <option value="Curso 4">Curso 4</option>
+                    <option value="Curso 5">Curso 5</option>
+                    <option value="Curso 6">Curso 6</option>
+                    </select>
+                    
+                      
+                        <div class="botao">
+                            <button type="submit"> Encomendar</button>
+                        </div>
+                </form>
+            </div>
 
         </section>
+
+        
         
     </main>
     
