@@ -23,8 +23,7 @@
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#encomendas">ENCOMENDAS</a></li>
                     <li><a href="#formulario">FORMULÁRIO</a></li>
-                    <li><a href="#Administrador">ADMINISTRADOR</a></li>
-                    <li><a href="#cadastro">CADASTRO</a></li>
+                    <li><a href="https://www.bcb.gov.br/cidadaniafinanceira/cursos">CONHEÇA OUTROS CURSOS</a></li>
             </div>
         </nav>
     </header>
@@ -194,9 +193,7 @@
                     </div>
 
 
-                    <label for="" class="checkbox">
-                        <input type="checkbox"> Desejo receber notificações no email
-                    </label>
+        
                     <center>
                         <div>
                             <button type="submit">Enviar</button>
