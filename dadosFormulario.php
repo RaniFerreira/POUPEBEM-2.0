@@ -9,7 +9,7 @@
     
 
 
-    $mgs_formulario = "INSERT INTO formularioDuvida(nome,email,telefone,genero,mensagem) VALUES ('$nome','$email','$telefone','$genero','$mensagem')";
+    $mgs_formulario = "INSERT INTO formularioduvida(nome,email,telefone,genero,mensagem) VALUES ('$nome','$email','$telefone','$genero','$mensagem')";
 
     mysqli_query($conn,$mgs_formulario);
 

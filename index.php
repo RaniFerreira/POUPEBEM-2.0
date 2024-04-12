@@ -7,8 +7,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Poupe Bem</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
 
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
 </head>
 
 <body>
@@ -153,7 +157,7 @@
 
 
             <div class="contato">
-                <form method="POST" action="guardando.php">
+                <form method="POST" action="dadosFormulario.php">
 
                     <div class="field2">
                         <label for="nome" class="label2">Nome</label>
@@ -183,8 +187,6 @@
                         </div>
                     </div>
 
-
-
                     <div class="field2">
                         <label for="mensagem" class="label2">Descrição</label>
                         <div class="control2">
@@ -192,19 +194,13 @@
                         </div>
                     </div>
 
-
-        
                     <center>
                         <div>
                             <button type="submit">Enviar</button>
                         </div>
-
-
                 </form>
 
         </section>
-
-
 
     </main>
 
