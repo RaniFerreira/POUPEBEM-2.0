@@ -1,0 +1,27 @@
+@media (max-width: 1935px) {
+      
+    .nav-links { 
+        float: right; 
+        margin-left: 30px;
+    }
+  }
+  
+  @media (max-width: 1720px) {
+      
+    .nav-links li {
+        display: inline-block; 
+        margin-left: 100px;
+    
+    }
+  }
+
+  @media (max-width: 1520px) {
+      
+    .nav-links li {
+        display: inline-block; 
+        margin-left: 60px;
+    
+    }
+  }
+
+  

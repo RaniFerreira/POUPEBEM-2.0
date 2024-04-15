@@ -7,7 +7,7 @@ body{
     display: flex; 
     justify-content: space-between; 
     align-items: center; 
-    background-color: #333333;
+    background-color:#333333; 
     padding: 10px 20px; 
     box-shadow: 0 2px 4px rgba(211, 214, 8, 0.1); 
     border-radius: 5px; 
@@ -18,7 +18,7 @@ body{
 .logo img {
     width: 130px;
     height: auto; 
-    
+
 }
 
 .nav-links {
@@ -33,27 +33,27 @@ body{
 .nav-links li {
     display: inline-block; 
     margin-left: 150px;
-    
+
 }
 
 .nav-links li:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 20px; 
 }
 
 .nav-links li a {
     text-decoration: none;
-    color: white;
+    color: #f0d908; 
     font-weight: bold; 
     padding: 10px 15px;
     font-size: 18px;
     padding: 30px 30px; 
-     
+
     border-radius: 15px; 
     transition: background-color 0.3s, color 0.3s; 
 }
 
 .nav-links li a:hover {
-    background-color:green; 
+    background-color: green; 
     color: #144303; 
 }
 
