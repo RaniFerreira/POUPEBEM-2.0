@@ -32,12 +32,11 @@ body{
 
 .nav-links li {
     display: inline-block; 
-    margin-left: 150px;
     
 }
 
 .nav-links li:not(:last-child) {
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 .nav-links li a {
