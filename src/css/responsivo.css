@@ -1,114 +1,122 @@
 @media (max-width: 1935px) {
-      
-    .nav-links { 
-        float: right; 
-        margin-left: 30px;
-    }
+
+  .nav-links {
+    float: right;
+    margin-left: 30px;
   }
-  
-  @media (max-width: 1720px) {
-      
-    .nav-links li {
-        display: inline-block; 
-        margin-left: 100px;
-    
-    }
-  }
+}
 
-  @media (max-width: 1520px) {
-      
-    .nav-links li {
-        display: inline-block; 
-        margin-left: 60px;
-    
-    }
-  }
-
-  @media (max-width: 1358px){
-
-    .nav-links li {
-      display: inline-block; 
-      margin-left: 30px;
-      
-    }
-    
-    
-    
-
- } 
-
- @media (max-width: 1235px){
+@media (max-width: 1720px) {
 
   .nav-links li {
-    display: inline-block; 
+    display: inline-block;
+    margin-left: 100px;
+
+  }
+}
+
+@media (max-width: 1520px) {
+
+  .nav-links li {
+    display: inline-block;
+    margin-left: 60px;
+
+  }
+}
+
+@media (max-width: 1358px) {
+
+  .nav-links li {
+    display: inline-block;
+    margin-left: 30px;
+
+  }
+
+
+
+
+}
+
+@media (max-width: 1235px) {
+
+  .nav-links li {
+    display: inline-block;
     margin-left: 3px;
-    
+
   }
-  
-  
-  
 
-} 
 
-@media (max-width: 1130px){
+
+
+}
+
+@media (max-width: 1130px) {
 
   .nav-links li {
-    display: inline-block; 
+    display: inline-block;
     margin-left: -11px;
-    
+
   }
+
   .nav-links li a {
     float: none;
     font-size: 16px;
-    padding: 10px 10px; 
-    
-    
+    padding: 10px 10px;
+
+
   }
+
   .contato {
     width: 500px;
   }
 
-  .caixaForm{
+  .caixaForm {
     width: 500px;
-     
+
   }
+
   .input {
     width: 500px;
-   
-  } 
-  select{
+
+  }
+
+  select {
     width: 500px;
   }
-} 
-@media (max-width: 870px){
+}
+
+@media (max-width: 870px) {
 
   .nav-links li {
-    display: inline-block; 
+    display: inline-block;
     margin-left: -11px;
-    
+
   }
+
   .nav-links li a {
     float: none;
     font-size: 14px;
-    padding: 5px 5px; 
-    
-    
+    padding: 5px 5px;
+
+
   }
 
-} 
-@media (max-width: 750px){
+}
+
+@media (max-width: 750px) {
 
   .nav-links li {
-    display: inline-block; 
+    display: inline-block;
     margin-left: -11px;
-    
+
   }
+
   .nav-links li a {
     float: none;
     font-size: 12px;
-    padding: 5px 5px; 
-    
-    
+    padding: 5px 5px;
+
+
   }
 
 }

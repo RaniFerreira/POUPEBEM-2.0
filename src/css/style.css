@@ -1,121 +1,130 @@
-body{
-    background-color: #3e3737; 
+body {
+    background-color: #3e3737;
 }
 
 /*estilo para navbar*/
 .navbar {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
-    background-color:#333333; 
-    padding: 10px 20px; 
-    box-shadow: 0 2px 4px rgba(211, 214, 8, 0.1); 
-    border-radius: 5px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333333;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(211, 214, 8, 0.1);
+    border-radius: 5px;
     height: 80px;
 }
 
 
 .logo img {
     width: 130px;
-    height: auto; 
+    height: auto;
 
 }
 
 .nav-links {
-    list-style: none; 
-    margin: 0; 
-    padding: 0; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
     float: right;
-    margin-top: 45px; 
+    margin-top: 45px;
     margin-left: 250px;
 }
 
 .nav-links li {
-    display: inline-block; 
+    display: inline-block;
     margin-left: 150px;
 
 }
 
 .nav-links li:not(:last-child) {
-    margin-right: 20px; 
+    margin-right: 20px;
 }
 
 .nav-links li a {
     text-decoration: none;
-    color: #f0d908; 
-    font-weight: bold; 
+    color: #f0d908;
+    font-weight: bold;
     padding: 10px 15px;
     font-size: 18px;
-    padding: 30px 30px; 
+    padding: 30px 30px;
 
-    border-radius: 15px; 
-    transition: background-color 0.3s, color 0.3s; 
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .nav-links li a:hover {
-    background-color: green; 
-    color: #144303; 
+    background-color: green;
+    color: #144303;
 }
 
 /* Estilos para a seção #home */
 #home {
-    text-align: center; 
-    padding: 50px 0; 
+    text-align: center;
+    padding: 50px 0;
 }
 
 .simbolo-dinheiro {
-    font-size: 200px; 
-    color: green; 
-    font-weight: bold; 
+    font-size: 200px;
+    color: green;
+    font-weight: bold;
 }
 
 @keyframes blink {
-    0% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
+
 .titulo {
-    font-size: 65px; 
-    color: green; 
-    margin-bottom: 20px; 
+    font-size: 65px;
+    color: green;
+    margin-bottom: 20px;
     font-family: 'Arial Black', sans-serif;
     animation: blink 1s infinite;
 }
 
 
 .subtitulo {
-    font-size: 35px; 
-    color: #f0d908; 
-    margin-bottom: 40px; 
+    font-size: 35px;
+    color: #f0d908;
+    margin-bottom: 40px;
     font-family: 'Arial Black', sans-serif;
 }
 
 
 #home img {
-    display: block; 
-    margin: 0 auto; 
-    max-width: 100%; 
-    height: auto; 
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 
 
 
 .text-sobre {
     text-align: justify;
-    border: 2px solid #ccc; 
-    border-radius: 15px ; 
-    padding: 20px; 
-    width: 80%; 
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    width: 80%;
     margin: auto;
-    
-   
-    
+
+
+
 }
 
 .text-sobre p {
-    font-size: 30px; 
-    line-height: 1.5; 
-    color:white;
+    font-size: 30px;
+    line-height: 1.5;
+    color: white;
     font-family: 'Pacifico', cursive;
 }
 
@@ -134,13 +143,13 @@ body{
 .curso-titulo {
     margin-bottom: 5px;
     font-size: 35px;
-    color: #f9f8f8; 
+    color: #f9f8f8;
 }
 
 .curso-subtitulo {
     margin-bottom: 5px;
     font-size: 25px;
-    color: #f9f8f8; 
+    color: #f9f8f8;
 }
 
 .curso-preco {
@@ -155,15 +164,15 @@ body{
 
 .containerEncomenda {
     max-width: 1200px;
-    margin: 0 auto; 
+    margin: 0 auto;
     overflow: hidden;
-    text-align: center; 
-   
-    
+    text-align: center;
+
+
 }
 
 .box {
-    background-color: #171714; 
+    background-color: #171714;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
@@ -175,32 +184,32 @@ body{
 }
 
 .box img {
-    width: 120px; 
-    height: 120px; 
+    width: 120px;
+    height: 120px;
     border-radius: 20%;
     margin-bottom: 10px;
 }
 
 /*estilo do formulário de encomendas*/
 
-.caixaForm{
+.caixaForm {
     width: 800px;
     margin: auto;
     margin-top: 50px;
     border: 2px solid #ccc;
-    
+
 }
 
 h2 {
     text-align: center;
     margin-bottom: 20px;
-    
+
 }
 
 .field {
     margin-bottom: 15px;
-    
-    
+
+
 }
 
 .label {
@@ -227,7 +236,7 @@ select {
     box-sizing: border-box;
     margin-bottom: 15px;
     font-size: 20px;
-    
+
 }
 
 .botao {
@@ -251,18 +260,18 @@ button:hover {
 /*estilo da seção formulario*/
 
 .banner {
-    background-color: #3e3737; 
+    background-color: #3e3737;
     color: white;
-    padding: 40px 0; 
+    padding: 40px 0;
     text-align: center;
-    margin-top: 50px; 
+    margin-top: 50px;
 }
 
 .banner p {
-    font-size: 32px; 
+    font-size: 32px;
     margin: 0;
-    font-weight: bold; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -320,21 +329,10 @@ button[type="submit"]:hover {
 }
 
 footer {
-	background-color: #333333;
-	color: #fff;
-	padding: 20px;
-	text-align: center;
-	margin-top: 50px;
+    background-color: #333333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
     font-size: large;
 }
-
-
-
-
-
-
-
-
-
-
-
