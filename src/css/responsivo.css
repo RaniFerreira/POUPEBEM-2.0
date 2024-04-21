@@ -24,5 +24,45 @@
     }
   }
 
+  @media (max-width: 1358px){
 
+    .nav-links li {
+      display: inline-block; 
+      margin-left: 30px;
+      
+    }
+    
+    
+    
+
+ } 
+
+ @media (max-width: 1235px){
+
+  .nav-links li {
+    display: inline-block; 
+    margin-left: 3px;
+    
+  }
   
+  
+  
+
+} 
+
+@media (max-width: 1130px){
+
+  .nav-links li {
+    display: inline-block; 
+    margin-left: -11px;
+    
+  }
+  .nav-links li a {
+    float: none;
+    font-size: 16px;
+    padding: 10px 10px; 
+    
+    
+  }
+
+} 
