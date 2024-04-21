@@ -64,5 +64,51 @@
     
     
   }
+  .contato {
+    width: 500px;
+  }
+
+  .caixaForm{
+    width: 500px;
+     
+  }
+  .input {
+    width: 500px;
+   
+  } 
+  select{
+    width: 500px;
+  }
+} 
+@media (max-width: 870px){
+
+  .nav-links li {
+    display: inline-block; 
+    margin-left: -11px;
+    
+  }
+  .nav-links li a {
+    float: none;
+    font-size: 14px;
+    padding: 5px 5px; 
+    
+    
+  }
 
 } 
+@media (max-width: 750px){
+
+  .nav-links li {
+    display: inline-block; 
+    margin-left: -11px;
+    
+  }
+  .nav-links li a {
+    float: none;
+    font-size: 12px;
+    padding: 5px 5px; 
+    
+    
+  }
+
+}

@@ -115,7 +115,7 @@ body{
 .text-sobre p {
     font-size: 30px; 
     line-height: 1.5; 
-    color: black;
+    color:white;
     font-family: 'Pacifico', cursive;
 }
 
@@ -209,28 +209,24 @@ h2 {
     margin-bottom: 5px;
     font-size: 20px;
     color: aliceblue;
-    text-align: center;
 }
 
 .input {
-    width: 500px;
+    width: 800px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 40px;
     box-sizing: border-box;
-    margin-left: 150px;
 }
 
 select {
-    width: 500px;
+    width: 800px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 40px;
     box-sizing: border-box;
     margin-bottom: 15px;
     font-size: 20px;
-    text-align: center;
-    margin-left: 150px;
     
 }
 
@@ -321,6 +317,15 @@ button[type="submit"]:hover {
 
 .center {
     text-align: center;
+}
+
+footer {
+	background-color: #333333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+    font-size: large;
 }
 
 

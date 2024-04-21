@@ -10,8 +10,8 @@
 
     <title>Poupe Bem</title>
 
-    <link rel="stylesheet" href="src/css/style.css">  
-    <link rel="stylesheet" href="src/css/responsivo.css"> 
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
 </head>
 
 <body>
@@ -200,6 +200,17 @@
                 </form>
 
         </section>
+
+        <footer>
+            <p>&copy; 2024 - Todos os direitos reservados</p>
+            <p>Entre em contato pelo e-mail: contatopoupebem@hotmail.com</p>
+            <p>Feito por: Ranielly Ferreira dos Santos</p>
+            <div>
+                <a href="#" class="logo">
+                    <img src="src/img/logo-removebg-preview.png" alt="Logo">
+                </a>
+            </div>
+        </footer>
 
     </main>
 
