@@ -197,6 +197,8 @@ body {
     margin: auto;
     margin-top: 50px;
     border: 2px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
 
 }
 
@@ -224,7 +226,7 @@ h2 {
     width: 800px;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 40px;
+    border-radius: 5px;
     box-sizing: border-box;
 }
 
@@ -232,7 +234,7 @@ select {
     width: 800px;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 40px;
+    border-radius: 5px;
     box-sizing: border-box;
     margin-bottom: 15px;
     font-size: 20px;

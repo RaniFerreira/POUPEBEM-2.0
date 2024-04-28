@@ -1,0 +1,20 @@
+create database  poupebemsite; 
+use  poupebemsite;
+
+
+create table FormularioDuvida (
+	idMensagem integer primary key auto_increment,
+	nome varchar(150),
+    email varchar(150),
+    telefone varchar(15),
+    genero varchar(30),
+    mensagem varchar (500)
+    
+);
+
+create table Encomenda(
+	idEncomenda integer primary key auto_increment,
+	nome varchar(150),
+    telefone varchar(15),
+    curso varchar(50)
+);

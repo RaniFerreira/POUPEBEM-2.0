@@ -180,9 +180,9 @@
                     </div>
 
                     <div class="field2">
-                        <label for="sexo" class="label2">Gênero</label>
+                        <label for="genero" class="label2">Gênero</label>
                         <div class="control2">
-                            <input name="sexo" id="sexo" class="input2">
+                            <input name="genero" id="genero" class="input2">
                         </div>
                     </div>
 
@@ -200,6 +200,7 @@
                 </form>
 
         </section>
+        </main>
 
         <footer>
             <p>&copy; 2024 - Todos os direitos reservados</p>
@@ -212,7 +213,7 @@
             </div>
         </footer>
 
-    </main>
+    
 
 </body>
 
